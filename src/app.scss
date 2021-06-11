@@ -1,4 +1,14 @@
+$sfondo: aquamarine;
+
+$testi: orangered;
+
 body {
-  background-color: aquamarine;
-  color: orangered;
+  background-color: $sfondo;
+}
+
+h1,
+h4,
+p,
+button {
+  color: $testi;
 }
